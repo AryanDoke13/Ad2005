@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Text and Button</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #imageContainer {
+            margin-top: 20px;
+        }
+        #imageContainer img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This is a Unique Heading</h1>
+        <p>Some descriptive text here.</p>
+        <button id="myButton">Click Me</button>
+        <div id="imageContainer">
+            <img src="https://via.placeholder.com/400" alt="Placeholder Image" id="myImage" style="display:none;">
+        </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        
+        });
+        document.getElementById('myButton').addEventListener('click', function() {
+        document.getElementById('myImage').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/BMW_logo_1.svg/800px-BMW_logo_1.svg.png';
+        document.getElementById('myImage').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

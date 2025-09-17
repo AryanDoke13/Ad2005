@@ -25,7 +25,7 @@ Here are some of the repositories I’ve worked on:
 Each repository represents practice, creativity, and steady improvement.  
 
 ---
-
+ 
 ## Current Focus  
 I’m currently working on:  
 - Improving my coding fundamentals in Java and Python.  
